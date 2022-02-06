@@ -13,7 +13,6 @@ public class LearnWebDriverManager {
 		
 		driver.get("http://leaftaps.com/opentaps/control/main");
 		driver.manage().window().maximize();
-		//driver.close();
 		driver.findElement(By.id("username")).sendKeys("Demosalesmanager");
 		
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
